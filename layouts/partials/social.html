@@ -1,0 +1,18 @@
+<div class="wrapper">
+    ready.<br/>
+    LOAD&#34;$&#34;,8<br/>
+    <br/>
+    searching for $<br/>
+    loading<br/>
+    ready.<br/>
+    list<br/>
+    <br/>
+    0 <code>&#34;links-to-sites  &#34;    2A</code>
+    <ul class="listing">
+      {{ range .Site.Params.social }}
+      <li><a href="{{ .link | safeURL }}" class="page-link">&#34;<span class="label">{{ .medium }}</span>&#34;{{ $len := sub 16 (len .medium) }}{{ range seq $len }}&nbsp;{{ end }}</a></li>
+      {{ end }}
+    </ul>
+    42 blocks free.<br/>
+    ready.
+</div>

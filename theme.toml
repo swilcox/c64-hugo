@@ -1,0 +1,22 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "C64"
+license = "MIT"
+licenselink = "https://github.com/swilcox/c64-hugo/blob/master/LICENSE"
+description = "A Simple and incomplete C64 Theme for Hugo"
+homepage = "https://github.com/swilcox/c64-hugo/"
+tags = []
+features = []
+min_version = "0.25.1"
+
+[author]
+  name = "Steven Wilcox"
+  homepage = "http://wilcox.be"
+
+# If porting an existing theme
+[original]
+  name = "c64jekyll"
+  homepage = "http://regmtait.github.io/c64jekyll/"
+  repo = "https://github.com/regmtait/c64jekyll"
+

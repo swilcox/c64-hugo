@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+// Our variables
+$base-font-family: 'cbmmedium', monospace, sans-serif;
+$base-font-size: 16px;
+
+$text-color: #b4b7ff;
+$background-color: #545eec;
+$main-color: $text-color;
+
+$width-small: 700px;
+$width-tiny: 400px;
+$width-large: 1000px;
+
+// Import partials
+@import
+        "partials/base",
+        "partials/syntax-highlighting"
+;
